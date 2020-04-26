@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Circuit';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Circuit'), url('CIRCUIT_.woff') format('woff');
+}
+
+h1 {
+  font-family: 'Circuit';
+  font-weight: 200;
+  color: #F9DB1C;
+  background-color: #D53001;
+  
+}
+
+a:link, a:visited {
+  font-family: 'Circuit';
+  font-weight: 200;
+  color: #F9DB1C;
+}
+
+.card {
+  -webkit-text-stroke: .25px black;   
+  background: rgb(85,85,85);
+  background: linear-gradient(180deg, rgba(85,85,85,1) 0%, rgba(204,204,204,1) 1%, rgba(238,238,238,1) 32%, rgba(255,255,255,1) 65%, rgba(238,238,238,1) 87%, rgba(119,119,119,1) 100%);
+}
+
+ 
