@@ -1,3 +1,34 @@
+## robofriends
+
+My spin on a Zero to Master react app project taught by Andrei Neagoie.
+
+Feel free to fork and do with as you like.
+
+1## How To Use 🔧
+
+From your command line, first clone Simplefolio:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/captain-rocket/robofriends.git
+
+# Go into the repository
+$ cd robofriends
+
+# Remove current origin repository
+$ git remote remove origin
+```
+
+Then you can install the dependencies either using NPM or Yarn:
+
+Using NPM:
+```bash
+# Install dependencies
+$ npm install
+
+# Start development server
+$ npm start
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
