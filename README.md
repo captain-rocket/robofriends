@@ -1,6 +1,6 @@
 ## robofriends
 
-My spin on a Zero to Master react app project taught by Andrei Neagoie.
+My spin on a Zero to Mastery react app project taught by Andrei Neagoie.
 
 Feel free to fork and do with as you like.
 
@@ -10,7 +10,7 @@ From your command line, first clone Simplefolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/captain-rocket/robofriends.git
+$ git clone <https://github.com/captain-rocket/robofriends.git>
 
 # Go into the repository
 $ cd robofriends
