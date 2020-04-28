@@ -10,7 +10,7 @@ From your command line, first clone Simplefolio:
 
 ```bash
 # Clone this repository
-$ git clone <https://github.com/captain-rocket/robofriends.git>
+$ git clone https://github.com/captain-rocket/robofriends.git
 
 # Go into the repository
 $ cd robofriends
@@ -29,7 +29,7 @@ $ npm install
 # Start development server
 $ npm start
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App] (https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
