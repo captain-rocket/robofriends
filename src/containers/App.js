@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import ErrorBoundry from '../components/ErrorBoundry';
 import './App.css';
 class App extends Component {
   constructor() {
@@ -28,18 +29,26 @@ class App extends Component {
       return robot.name.toLowerCase().includes(searchfield.toLowerCase())
     })
 
-    return !robots.length ?
-      <h1>Loading</h1> :
-    (
+    return !robots.length ? (
+      <h1>Loading</h1>
+    ) : (
       <div className="tc">
-        <h1 className="f-subheadline lh-title dib pa3 shadow-5">Robot Friends</h1>
+        <h1 className="f-subheadline lh-title dib pa3 shadow-5">
+          Robot Friends
+        </h1>
         <SearchBox searchChange={this.onSearchChange} />
         <Scroll>
-        <CardList robots={filterRobots} />
-        <br></br>
-        <a className='no-underline' href='https://github.com/captain-rocket'>Websited Designed by Roger Brown</a>
-        <br></br>
-        <a className='no-underline pb4' href="http://www.freepik.com">Background Image Designed by Kotkoa &#8260; Freepik</a>
+          <ErrorBoundry>
+            <CardList robots={filterRobots} />
+          </ErrorBoundry>
+          <br></br>
+          <a className="no-underline" href="https://github.com/captain-rocket">
+            Websited Designed by Roger Brown
+          </a>
+          <br></br>
+          <a className="no-underline pb4" href="http://www.freepik.com">
+            Background Image Designed by Kotkoa &#8260; Freepik
+          </a>
         </Scroll>
       </div>
     );
