@@ -4,7 +4,7 @@ My spin on a Zero to Master react app project taught by Andrei Neagoie.
 
 Feel free to fork and do with as you like.
 
-1## How To Use 🔧
+## How To Use 🔧
 
 From your command line, first clone Simplefolio:
 
