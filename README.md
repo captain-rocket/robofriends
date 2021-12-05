@@ -1,5 +1,7 @@
 ## robofriends
 
+gh-pages https://captain-rocket.github.io/robofriends/
+
 My spin on a Zero to Mastery react app project taught by Andrei Neagoie.
 
 Feel free to fork and do with as you like.
