@@ -13,7 +13,7 @@ const [searchfield, setSearchfield] = useState('');
     fetch("https://jsonplaceholder.typicode.com/users")
     .then(response => response.json())
     .then(users => {setRobots(users)});
-  })
+  }, [])
     
   const filterRobots = robots.filter((robot) => {
     return robot.name.toLowerCase().includes(searchfield.toLowerCase())
