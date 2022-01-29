@@ -1,5 +1,5 @@
 html {
-  background: url("../src/assets/622c.jpg") no-repeat center center fixed;
+  background: url("../src/assets/622.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,5 +18,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-  
 }

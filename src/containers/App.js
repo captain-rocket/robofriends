@@ -4,6 +4,7 @@ import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundry';
 import './App.css';
+
 const App = () => 
 {
 const [robots, setRobots] = useState([]);
@@ -19,7 +20,6 @@ const [searchfield, setSearchfield] = useState('');
     return robot.name.toLowerCase().includes(searchfield.toLowerCase())
   })
     
-
     return !robots.length ? (
       <h1>Loading</h1>
     ) : (
@@ -43,7 +43,6 @@ const [searchfield, setSearchfield] = useState('');
         </Scroll>
       </div>
     );
-  
 }
 
 export default App;
